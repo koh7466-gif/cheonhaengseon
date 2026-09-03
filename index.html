@@ -627,12 +627,13 @@
       try{
         const res=await fetch(FORM_ENDPOINT,{
           method:'POST',
-          headers:{'Content-Type':'application/json','Accept':'application/json'},
-          body:JSON.stringify({
-            이름:nameI.value.trim(),
-            이메일:emailI.value.trim(),
-            신청항목:MODES[currentMode].item,
-            신청일시:new Date().toLocaleString('ko-KR')
+          headers:{'Accept':'application/json'},
+          body:new URLSearchParams({
+            name:nameI.value.trim(),
+            email:emailI.value.trim(),
+            item:MODES[currentMode].item,
+            date:new Date().toLocaleString('ko-KR'),
+            _subject:'[천행선 홈페이지] '+MODES[currentMode].item+' 신청 · '+nameI.value.trim()
           })
         });
         if(!res.ok)throw new Error('HTTP '+res.status);
