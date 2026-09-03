@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>평생 일해도 가난한 이유 · 천행선 무료 강의</title>
-<meta name="description" content="왜 열심히 일해도 자산은 늘지 않는가. 돈의 구조를 처음부터 다시 보는 13분 무료 강의. 천행선의 경제 번역.">
+<meta name="description" content="나는 왜 투자를 해야 하는가. 성실히 일하고 저축해도 가난해지는 진짜 이유를, 유료 강의만큼 공들여 만든 13분 무료 강의로 풀어드립니다. 천행선.">
 <meta name="theme-color" content="#0B0B0C">
 <link rel="canonical" href="https://koh7466-gif.github.io/cheonhaengseon/lecture-free.html">
 <meta property="og:type" content="video.other">
 <meta property="og:title" content="평생 일해도 가난한 이유 · 천행선 무료 강의">
-<meta property="og:description" content="왜 열심히 일해도 자산은 늘지 않는가 — 돈의 구조를 처음부터 다시 보는 13분 무료 강의.">
+<meta property="og:description" content="나는 왜 투자를 해야 하는가 — 유료 강의만큼 공들여 만든 13분 무료 강의.">
 <meta property="og:url" content="https://koh7466-gif.github.io/cheonhaengseon/lecture-free.html">
 <meta property="og:image" content="https://koh7466-gif.github.io/cheonhaengseon/og/og-home.png">
 <meta property="og:image:width" content="1200">
@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
   :root{
-    --bg:#0B0B0C;--bg2:#141416;--yellow:#FFD84D;--orange:#FF7A00;--red:#FF3B30;
+    --bg:#0B0B0C;--bg2:#141416;--yellow:#FFD84D;--orange:#FF7A00;--red:#FF3B30;--red-soft:#FF6B5E;
     --text:#ECECEA;--muted:#9A9AA0;--muted2:#75757B;--line:rgba(255,255,255,.09);
     --sans:'Pretendard Variable',Pretendard,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
   }
@@ -33,6 +33,7 @@
   .page{max-width:680px;margin:0 auto;background:var(--bg);}
   b,strong{font-weight:700;color:#fff;}
   .yel{color:var(--yellow);}
+  .red{color:var(--red);}
 
   .topbar{display:flex;justify-content:space-between;align-items:center;padding:15px 26px;background:#000;border-bottom:1px solid var(--line);font-size:12.5px;}
   .topbar a{color:var(--muted);text-decoration:none;letter-spacing:.04em;transition:color .2s;}
@@ -45,6 +46,7 @@
   h2{font-size:29px;font-weight:800;letter-spacing:-.02em;line-height:1.32;color:#fff;word-break:keep-all;}
   .lead{font-size:16px;color:var(--muted);word-break:keep-all;margin-top:18px;}
   .lead b{color:#fff;}
+  .after{margin-top:34px;font-size:18px;font-weight:700;color:var(--yellow);line-height:1.7;text-align:center;word-break:keep-all;}
 
   /* HERO */
   .hero{padding:64px 26px 40px;background:radial-gradient(ellipse 80% 50% at 70% 0%,rgba(255,122,0,.16),transparent 60%),radial-gradient(ellipse 70% 50% at 10% 40%,rgba(255,216,77,.05),transparent 55%),#0B0B0C;}
@@ -58,14 +60,50 @@
   .video-wrap{padding:0 26px 20px;background:#0B0B0C;}
   .video-box{position:relative;aspect-ratio:16/9;background:#000;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.5);}
   .video-box iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
-  .video-cap{max-width:680px;margin:0 auto;padding:14px 26px 0;font-size:13px;color:var(--muted2);text-align:center;}
+  .video-cap{padding:14px 26px 0;font-size:13px;color:var(--muted2);text-align:center;}
 
-  /* points */
-  .lead-strong{font-size:20px;font-weight:700;color:#fff;line-height:1.6;word-break:keep-all;margin-bottom:8px;}
-  .lead-strong .yel{color:var(--yellow);}
-  .point{display:flex;gap:15px;align-items:flex-start;border:1px solid var(--line);background:var(--bg2);border-radius:14px;padding:19px 22px;margin-bottom:12px;}
-  .point .dot{flex:none;width:8px;height:8px;border-radius:50%;background:var(--yellow);margin-top:10px;}
-  .point p{font-size:15.5px;color:var(--text);word-break:keep-all;margin:0;}
+  /* quality banner */
+  .quality{background:linear-gradient(180deg,rgba(255,216,77,.06),transparent),#0B0B0C;}
+  .quality .box{border:1px solid rgba(255,216,77,.3);background:rgba(255,216,77,.04);border-radius:16px;padding:30px 28px;}
+  .quality .tag2{font-size:12px;letter-spacing:.16em;font-weight:800;color:var(--yellow);margin-bottom:14px;}
+  .quality h3{font-size:23px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;word-break:keep-all;}
+  .quality h3 .yel{color:var(--yellow);}
+  .quality p{font-size:15px;color:var(--muted);word-break:keep-all;}
+  .quality p b{color:#fff;}
+
+  /* the one question */
+  .qbox{border-left:3px solid var(--yellow);padding:8px 0 8px 24px;margin-top:26px;}
+  .qbox .q{font-size:24px;font-weight:800;color:var(--yellow);line-height:1.5;word-break:keep-all;}
+  .qbox .d{margin-top:12px;font-size:15px;color:var(--muted);word-break:keep-all;}
+
+  /* stakes cards */
+  .stake{border:1px solid var(--line);background:var(--bg2);border-radius:16px;padding:24px 26px;margin-bottom:14px;}
+  .stake .st{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+  .stake .st .ic{font-size:20px;}
+  .stake .st h3{font-size:17.5px;font-weight:800;color:var(--yellow);}
+  .stake p{font-size:15px;color:var(--muted);word-break:keep-all;margin:0;}
+  .stake p b{color:#fff;}
+  .stake.warn2{border-color:rgba(255,59,48,.25);background:rgba(255,59,48,.04);}
+  .stake.warn2 .st h3{color:var(--red-soft);}
+
+  /* curriculum */
+  .ch{border:1px solid var(--line);background:var(--bg2);border-radius:16px;padding:22px 24px;margin-bottom:12px;}
+  .ch .top{display:flex;gap:16px;align-items:baseline;margin-bottom:8px;}
+  .ch .no{flex:none;font-size:22px;font-weight:800;color:var(--yellow);line-height:1;}
+  .ch h3{font-size:18px;font-weight:800;color:#fff;word-break:keep-all;}
+  .ch p{font-size:14.5px;color:var(--muted);word-break:keep-all;margin:0;padding-left:38px;}
+
+  /* before/after */
+  .cmp{border-radius:16px;padding:26px 26px 24px;margin-top:16px;}
+  .cmp .ct{font-size:14px;letter-spacing:.12em;font-weight:700;margin-bottom:16px;}
+  .cmp.bad{border:1px solid rgba(255,59,48,.28);background:rgba(255,59,48,.04);}
+  .cmp.bad .ct{color:var(--red-soft);}
+  .cmp.good{border:1px solid rgba(255,216,77,.28);background:rgba(255,216,77,.04);}
+  .cmp.good .ct{color:var(--yellow);}
+  .cmp .li{display:flex;gap:12px;align-items:flex-start;padding:7px 0;font-size:15px;color:var(--text);word-break:keep-all;}
+  .cmp .li .m{flex:none;font-weight:800;}
+  .cmp.bad .li .m{color:var(--red);}
+  .cmp.good .li .m{color:var(--yellow);}
 
   /* next cards */
   .card{display:block;border:1px solid var(--line);background:var(--bg2);border-radius:14px;padding:24px 26px;margin-bottom:14px;text-decoration:none;transition:border-color .2s,transform .2s;}
@@ -98,6 +136,7 @@
     .hero h1{font-size:37px;}
     .video-wrap{padding:0 22px 16px;}
     h2{font-size:25px;}
+    .ch p{padding-left:0;}
   }
 </style>
 </head>
@@ -124,19 +163,106 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
+    <div class="video-cap">▶ 재생을 눌러 지금 바로 시청하세요</div>
   </div>
-  <div class="video-cap">▶ 재생을 눌러 지금 바로 시청하세요</div>
 
-  <!-- 이 강의는 -->
+  <!-- 무료지만 가볍게 만들지 않았습니다 -->
+  <section class="quality">
+    <div class="box">
+      <div class="tag2">무료지만, 가볍게 만들지 않았습니다</div>
+      <h3>돈을 주고 들어도 아깝지 않게,<br><span class="yel">유료 강의만큼 공들여</span> 만들었습니다.</h3>
+      <p>혼자 투자하는 개인 투자자분들께 조금이나마 도움이 되었으면 하는 마음으로 준비했습니다. <b>무료라고 해서 내용을 가볍게 만들지 않았습니다.</b> 여러분이 이 13분에 쓰신 시간이 아깝지 않도록, 끝까지 가치 있는 내용으로 채웠습니다.</p>
+    </div>
+  </section>
+
+  <!-- 하나의 질문 -->
   <section>
-    <div class="sublabel">이 강의는</div>
-    <h2>노력의 문제가 아니라,<br>구조의 문제였습니다.</h2>
-    <p class="lead-strong" style="margin-top:24px;">더 오래 일하고 더 아껴도 자산이 늘지 않는다면,<br>그건 게을러서가 아니라 <span class="yel">돈의 규칙을 배운 적이 없어서</span>입니다.</p>
-    <p class="lead" style="margin-bottom:26px;">이 13분은 어려운 용어 없이, 성실한 노동만으로는 왜 부가 쌓이지 않는지를 처음부터 짚어드립니다. 경제를 처음 다시 배우고 싶은 분께 딱 맞는 출발점입니다.</p>
+    <div class="sublabel">이 강의가 답하는 하나의 질문</div>
+    <h2>종목보다 먼저,<br>이 질문에 답해야 합니다.</h2>
+    <p class="lead">많은 분이 "남들도 하니까", "나만 뒤처질 것 같아서" 투자를 시작합니다. 하지만 그 이유만으로는 공부를 오래 이어가기 어렵습니다. 투자 원칙을 세우기 전에, 반드시 먼저 답해야 하는 질문이 있습니다.</p>
+    <div class="qbox">
+      <div class="q">"나는 왜<br>투자를 해야 하는가?"</div>
+      <div class="d">이 강의는 바로 그 질문의 답을 함께 찾아가는 시간입니다. 답이 분명해지면, 흔들려도 다시 돌아올 자리가 생깁니다.</div>
+    </div>
+  </section>
 
-    <div class="point"><div class="dot"></div><p><b>월급만으로는 왜 부족한가</b> — 노동 소득과 자산 소득의 결정적 차이.</p></div>
-    <div class="point"><div class="dot"></div><p><b>돈이 스스로 일하게 하는 구조</b> — 아는 사람만 올라타는 흐름.</p></div>
-    <div class="point"><div class="dot"></div><p><b>지금 당장 바꿀 수 있는 것</b> — 오늘부터 시작할 수 있는 첫 걸음.</p></div>
+  <!-- 왜 들어야 하나 (스테이크) -->
+  <section>
+    <div class="sublabel">왜 꼭 들어야 하나</div>
+    <h2>가만히 있는 것도,<br>사실은 선택입니다.</h2>
+    <p class="lead" style="margin-bottom:30px;">아무것도 하지 않으면 안전할 것 같지만, 그 사이에도 이런 일들이 조용히 벌어지고 있습니다. 강의는 이 네 가지를 하나씩 눈으로 보여드립니다.</p>
+
+    <div class="stake">
+      <div class="st"><span class="ic">💸</span><h3>통장 속 숫자는 그대로, 가치는 준다</h3></div>
+      <p>숫자는 변하지 않지만 그 돈으로 살 수 있는 건 매일 줄어듭니다. 물가가 매년 3%씩만 올라도, 지금 현금의 실질 가치는 <b>약 24년 뒤 절반</b>이 됩니다. 아무도 훔쳐 가지 않았는데 말입니다.</p>
+    </div>
+    <div class="stake warn2">
+      <div class="st"><span class="ic">👵</span><h3>성실했는데 노후가 가난한 사람들</h3></div>
+      <p>한국의 노인 빈곤율은 OECD에서 가장 높은 수준입니다. <b>게을러서가 아닙니다.</b> 오히려 더 치열하게 일하고 저축한 분들이었습니다. 저축만으로 자산을 불리던 시대가 끝났기 때문입니다.</p>
+    </div>
+    <div class="stake">
+      <div class="st"><span class="ic">⏳</span><h3>시간은 나중에 다시 살 수 없다</h3></div>
+      <p>25살부터 10년만 넣은 사람이, 35살부터 <b>두 배를</b> 20년간 넣은 사람을 이깁니다(연 7% 가정). 액수는 나중에 늘릴 수 있어도, 오늘 시작하지 않은 1년은 20년 뒤 큰돈으로도 채워지지 않습니다.</p>
+    </div>
+    <div class="stake warn2">
+      <div class="st"><span class="ic">🇰🇷</span><h3>한국에 살수록 위험은 하나 더</h3></div>
+      <p>에너지·원자재를 수입하는 나라라, 미국 금리·유가·환율 같은 바깥 변수가 내 대출 이자와 장바구니 물가에 직접 꽂힙니다. <b>아는 사람에게 돈이 모이는 게 아니라, 모르는 사람에게 위험이 몰립니다.</b></p>
+    </div>
+  </section>
+
+  <!-- 무엇을 다루나 -->
+  <section>
+    <div class="sublabel">13분 안에 다루는 것</div>
+    <h2>왜 투자해야 하는지,<br>여섯 걸음으로 짚어드립니다.</h2>
+    <div style="margin-top:32px;">
+      <div class="ch">
+        <div class="top"><div class="no">01</div><h3>돈의 가치는 왜 조용히 줄어드는가</h3></div>
+        <p>성실히 일하고 저축한 사람들이 노후에 빈곤을 겪는 이유. 저축이 정답이던 시대가 왜 끝났는지부터 봅니다.</p>
+      </div>
+      <div class="ch">
+        <div class="top"><div class="no">02</div><h3>화폐의 방향과 자산의 방향</h3></div>
+        <p>세상의 돈은 계속 늘고, 그 가치는 길게 보면 내려갑니다. 질문은 '투자를 할까 말까'가 아니라 <b style="color:var(--yellow);font-weight:700">내 돈을 어느 그래프 위에 세울 것인가</b>입니다.</p>
+      </div>
+      <div class="ch">
+        <div class="top"><div class="no">03</div><h3>복리와 시간, 왜 오늘이 가장 빠른 날인가</h3></div>
+        <p>먼저 시작한 사람을 나중에 두 배로도 못 따라잡는 이유. 복리의 가장 중요한 재료는 액수가 아니라 시간입니다.</p>
+      </div>
+      <div class="ch">
+        <div class="top"><div class="no">04</div><h3>한국에 살수록 더 위험한 이유</h3></div>
+        <p>부동산에 쏠린 자산, 높은 가계부채, 바깥에서 흔들리는 물가와 금리 — 우리가 더 취약한 구조를 짚습니다.</p>
+      </div>
+      <div class="ch">
+        <div class="top"><div class="no">05</div><h3>경제공부를 미루게 만드는 세 가지 오해</h3></div>
+        <p>"어렵다 · 위험하다 · 여유 없다" — 세 오해의 정체를 깨고, 왜 셋 다 결국 '지금은 아니다'로 끝나는지 보여드립니다.</p>
+      </div>
+      <div class="ch">
+        <div class="top"><div class="no">06</div><h3>그래서 무엇부터 하면 되는가</h3></div>
+        <p>종목은 찍어주지 않습니다. 대신 순서를 드립니다 — 목표는 시장 평균, 일주일에 기사 하나, 시작일부터 정하기, 계좌보다 언어 먼저.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 들으면 이렇게 바뀝니다 -->
+  <section>
+    <div class="sublabel">이 강의를 듣고 나면</div>
+    <h2>돈을 보는 눈이<br><span class="yel">달라집니다.</span></h2>
+    <p class="lead">계좌의 숫자는 아직 그대로일 수 있습니다. 하지만 세상을 보는 눈이 바뀝니다. 결말을 바꾸는 건 연봉도 운도 아니라, <b>경제를 읽을 수 있는 힘</b> 하나입니다.</p>
+
+    <div class="cmp bad" style="margin-top:30px;">
+      <div class="ct">강의 전</div>
+      <div class="li"><span class="m">✕</span>"남들 하니까" 막연히 시작하거나, 계속 미룬다</div>
+      <div class="li"><span class="m">✕</span>저축만 하면 안전하다고 믿는다</div>
+      <div class="li"><span class="m">✕</span>경제 뉴스가 외국어처럼 느껴진다</div>
+      <div class="li"><span class="m">✕</span>"돈 더 벌면 그때 시작하자"고 미룬다</div>
+    </div>
+    <div class="cmp good">
+      <div class="ct">강의 후</div>
+      <div class="li"><span class="m">✓</span>"나는 왜 투자하는가"에 스스로 답할 수 있다</div>
+      <div class="li"><span class="m">✓</span>내 돈이 어느 그래프 위에 서 있는지 보인다</div>
+      <div class="li"><span class="m">✓</span>금리·물가·환율 세 단어로 뉴스가 읽히기 시작한다</div>
+      <div class="li"><span class="m">✓</span>오늘, 가장 작은 한 걸음을 시작한다</div>
+    </div>
+    <p class="after">경제를 읽을 수 있게 되는 순간, 선택지가 생깁니다.<br>그 무서운 통계는 더 이상 내 미래가 아니게 됩니다.</p>
   </section>
 
   <!-- 다음 단계 -->
@@ -147,7 +273,7 @@
       <a class="card hl" href="lecture-paid.html">
         <span class="cat">영상 강의 · 다음 단계</span>
         <b>돈을 버는 투자자의 사고방식</b>
-        <span>왜 잃는지 알았다면, 이제는 어떻게 판단하는지 차례입니다. 종목이 아니라 나만의 원칙을 세우는 전 5강.</span>
+        <span>왜 투자해야 하는지 알았다면, 이제는 어떻게 판단하는지 차례입니다. 종목이 아니라 나만의 원칙을 세우는 전 5강.</span>
         <span class="go">유료 강의 자세히 보기 →</span>
       </a>
       <a class="card" href="index.html#free">
@@ -186,7 +312,7 @@
 
   <div class="disclaimer">
     본 강의는 금융 교육 콘텐츠로, 특정 종목의 추천이나 투자 자문을 제공하지 않습니다.
-    강의에 등장하는 사례와 숫자는 원리 설명을 위한 예시입니다.<br>
+    강의에 등장하는 사례와 수치는 원리 설명을 위한 예시이며, 수익을 보장하지 않습니다.<br>
     투자의 판단과 책임은 투자자 본인에게 있습니다. © 2026 천행선. All rights reserved.
   </div>
 
